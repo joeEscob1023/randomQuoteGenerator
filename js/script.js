@@ -76,7 +76,6 @@ getRandomColor();
 */
 function printQuote() {
   let randomQuote = getRandomQuote();
-  let randomColor = getRandomColor();
   let html = "";
   html += ` <p class="quote">${randomQuote.quote}</p>`;
   html += `<p class="source">${randomQuote.source}`;
